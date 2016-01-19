@@ -6,7 +6,9 @@ function envupdate {
 }
 function envpush {
 	cd ~/devenv
-	git add *
+	git add .satya_bash
+	git add .satya_alias
+	git add .sf_alias
 	git commit -m "commit aliases"
 	git push
 }

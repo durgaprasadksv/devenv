@@ -1,1 +1,14 @@
-alias h=`history`
+alias h="history"
+function envupdate {
+	cd ~/devenv
+	git pull
+	source ~/.bash_profile
+}
+function envpush {
+	cd ~/devenv
+	git add *
+	git commit -m "commit aliases"
+	git push
+}
+alias update=envupdate
+alias push=envpush

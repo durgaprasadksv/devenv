@@ -9,3 +9,5 @@ alias ws="cd /Users/skamuju/datajourney/repos/"
 export PATH=~/bin:"$PATH"
 export MAVEN_HOME=/usr/local
 alias uac="ssh uacbst1.ops.svqe.jigsaw.com"
+export CDH=5.5.1
+export HADOOP_HOME=/Users/skamuju/hadoop-2.6.0-cdh5.5.1

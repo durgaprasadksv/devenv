@@ -11,3 +11,6 @@ export MAVEN_HOME=/usr/local
 alias uac="ssh uacbst1.ops.svqe.jigsaw.com"
 export CDH=5.5.1
 export HADOOP_HOME=/Users/skamuju/hadoop-2.6.0-cdh5.5.1
+export HADOOP_LOG_DIR=/tmp/logs/hadoop/
+export YARN_LOG_DIR=/tmp/logs/yarn/
+export HADOOP_PID_DIR=/tmp/pids/

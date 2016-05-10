@@ -1,0 +1,50 @@
+UseRoaming no
+
+Host uacbst1
+  HostName uacbst1.ops.svqe.jigsaw.com
+
+Host hadoop01-fe2
+  HostName hadoop01.fe2.jigsaw.com
+  ServerAliveInterval 30
+  ProxyCommand ssh -q uacbst1 nc  %h 22
+
+Host hack11
+  HostName hackathon11.qe9.jigsaw.com
+  ServerAliveInterval 30
+  ProxyCommand ssh -q uacbst1 nc %h 22
+
+Host hack12
+  HostName hackathon12.qe9.jigsaw.com
+  ServerAliveInterval 30
+  ProxyCommand ssh -q uacbst1 nc %h 22
+
+Host hack13
+  HostName hackathon13.qe9.jigsaw.com
+  ServerAliveInterval 30
+  ProxyCommand ssh -q uacbst1 nc %h 22
+
+Host hack17
+  HostName hackathon17.qe9.jigsaw.com
+  ServerAliveInterval 30
+  ProxyCommand ssh -q uacbst1 nc %h 22
+
+Host hack18
+  HostName hackathon18.qe9.jigsaw.com
+  ServerAliveInterval 30
+  ProxyCommand ssh -q uacbst1 nc %h 22
+
+Host ci258
+  HostName node258.ci.jigsaw.com
+  ServerAliveInterval 30
+  ProxyCommand ssh -q uacbst1 nc %h 22
+
+Host ci248
+  HostName node248.ci.jigsaw.com
+  ServerAliveInterval 30
+  ProxyCommand ssh -q uacbst1 nc %h 22
+
+Host ci243
+  HostName node243.ci.jigsaw.com
+  ServerAliveInterval 30
+  ProxyCommand ssh -q uacbst1 nc %h 22
+

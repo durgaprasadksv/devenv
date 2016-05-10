@@ -15,4 +15,4 @@ export HADOOP_LOG_DIR=/tmp/logs/hadoop/
 export YARN_LOG_DIR=/tmp/logs/yarn/
 export HADOOP_PID_DIR=/tmp/pids/
 export PATH=/Users/skamuju/bin:/Users/skamuju/bin:/Users/skamuju/bin:/Users/skamuju/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/skamuju/hadoop-2.6.0-cdh5.5.1/bin
-alias dj=cd /Users/skamuju/datajourney/repos/dc_datajourney
+alias dj="cd /Users/skamuju/datajourney/repos/dc_datajourney"

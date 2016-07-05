@@ -20,3 +20,5 @@ PATH=/Users/skamuju/bin:/Users/skamuju/bin:/Users/skamuju/bin:/Users/skamuju/bin
 alias starthbase=./start-hbase.sh
 alias stophbase=./stop-hbase.sh
 PATH=/Users/skamuju/bin:/Users/skamuju/bin:/Users/skamuju/bin:/Users/skamuju/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/skamuju/hadoop-2.6.0-cdh5.5.1/bin:/Users/skamuju/kafka_2.9.2-0.8.1.1/bin
+alias hstart='/usr/local/Cellar/hadoop/2.7.2/sbin/start-dfs.sh;/usr/local/Cellar/hadoop/2.7.2/sbin/start-yarn.sh'
+alias hstop='/usr/local/Cellar/hadoop/2.7.2/sbin/stop-dfs.sh;/usr/local/Cellar/hadoop/2.7.2/sbin/stop-yarn.sh'
